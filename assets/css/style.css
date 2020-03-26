@@ -1,0 +1,44 @@
+/*----------------------------Font*/
+@import url('https://fonts.googleapis.com/css?family=Baloo+2:400,500,600,700,800&display=swap');
+
+body {
+    font-family: "Baloo 2", cursive;
+}
+/*----------------------------Header*/
+
+.hub-heading {
+    color: #fff200;
+    font-size: 130px;
+    display: block;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.hub-row {
+    background: url("../images/Celebrate1.jpg") no-repeat top fixed;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+    background-size: cover;
+    min-height: 400px;
+    position: relative;
+    align-content: center;
+}
+
+.hub-line {
+    width: 20%;
+    height: 10px;
+    background-color:#fff200;
+    border-radius: 15px;
+    margin-top: 0%;
+}
+
+.opaque-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
