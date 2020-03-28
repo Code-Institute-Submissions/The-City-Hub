@@ -8,6 +8,7 @@ body {
 /*----------------------------Nav Bar*/
 
 .navbar {
+    overflow: hidden;
     height: 35px;
     background-color: rgba(0,0,0,0.9);
     border-bottom: 1px solid #fff200;
@@ -37,9 +38,13 @@ body {
     color: #fff200;
     font-size: 130px;
     display: block;
-    margin-bottom: 0px;
     text-align: center;
-    width: 100%;
+    margin-bottom: 70px;
+}
+
+.hub-heading h1 {
+    font-size: 130px;
+    margin-top: 70px;
 }
 
 .hub-canary {
@@ -48,12 +53,12 @@ body {
 }
 
 .hub-row-index {
-    background: url("../images/Celebrate1.jpg") no-repeat;
+    background: url("../images/Celebrate1.jpg") no-repeat fixed;
     -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
     background-size: cover;
-    min-height: 400px;
+    height: 100%;
     position: relative;
     align-content: center;
 }
@@ -61,7 +66,7 @@ body {
 .hub-line {
     width: 20%;
     height: 10px;
-    background-color:#fff200;
+    background-color: #00a650;
     border-radius: 15px;
     margin-top: 0;
 }
@@ -78,6 +83,46 @@ body {
     height: 100%;
     width: 100%;
     background-color: rgba(0,0,0,0.5);
+}
+
+
+/*----------------------------------------welcome*/
+
+.welcome-section {
+    background-color: rgba(0,0,0,0.9);
+    border-top: 1px solid #fff200;
+}
+
+.welcome-heading {
+    font-size: 70px;
+    color: #fff200;
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.welcome-reason-heading {
+    color: #fff200;
+    text-align: center;
+}
+
+.welcome-headings-icons {
+    display: block;
+    color: #00a650;
+    padding-top: 4px;
+}
+
+.welcome-reason {
+    color: #fff200;
+    text-align: center;
+}
+
+.welcome-line {
+    width: 10%;
+    height: 7px;
+    background-color: #00a650;
+    border-radius: 15px;
+    margin-top: 0;
 }
 
 /*----------------------------------------News Page*/
