@@ -1,9 +1,36 @@
 /*----------------------------Font*/
-@import url('https://fonts.googleapis.com/css?family=Baloo+2:400,500,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 
 body {
-    font-family: "Baloo 2", cursive;
+    font-family: "Righteous", cursive;
 }
+
+/*----------------------------Nav Bar*/
+
+.navbar {
+    height: 35px;
+    background-color: rgba(0,0,0,0.9);
+    border-bottom: 1px solid #fff200;
+    display: block;
+}
+
+.navbar-link {
+    color: #fff200;
+    text-decoration: none;
+    padding: 0;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.navbar-divider {
+    color: #00a650;
+}
+
+.navbar-link:hover {
+    color: #00a650;
+    text-decoration: none;
+}
+
 /*----------------------------Header*/
 
 .hub-heading {
@@ -12,10 +39,16 @@ body {
     display: block;
     margin-bottom: 0px;
     text-align: center;
+    width: 100%;
 }
 
-.hub-row {
-    background: url("../images/Celebrate1.jpg") no-repeat top fixed;
+.hub-canary {
+    max-height: 85px;
+    margin: 0;
+}
+
+.hub-row-index {
+    background: url("../images/Celebrate1.jpg") no-repeat;
     -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
@@ -30,7 +63,12 @@ body {
     height: 10px;
     background-color:#fff200;
     border-radius: 15px;
-    margin-top: 0%;
+    margin-top: 0;
+}
+
+.hub-tagline {
+    font-size: 30px;
+    margin: 0;
 }
 
 .opaque-cover {
@@ -42,3 +80,41 @@ body {
     background-color: rgba(0,0,0,0.5);
 }
 
+/*----------------------------------------News Page*/
+
+.hub-row-news {
+    background: url("../images/ncfc4.jpg") no-repeat;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+    background-size: cover;
+    min-height: 400px;
+    position: relative;
+    align-content: center;
+}
+
+/*----------------------------------------Squad*/
+
+.hub-row-squad {
+    background: url("../images/ncfc3.jpg") no-repeat;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+    background-size: cover;
+    min-height: 400px;
+    position: relative;
+    align-content: center;
+}
+
+/*----------------------------------------Sign Up*/
+
+.hub-row-sign {
+    background: url("../images/ncfc2.jpg") no-repeat;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+    background-size: cover;
+    min-height: 400px;
+    position: relative;
+    align-content: center;
+}

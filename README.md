@@ -1,2 +1,3 @@
 # The-City-Hub
-First Milestone Project - HTMlL &amp; CSS
+First Milestone Project - HTML &amp; CSS
+
