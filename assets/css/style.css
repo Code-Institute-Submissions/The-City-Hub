@@ -179,6 +179,44 @@ body {
     border: 1px solid #fff200;
 }
 
+/*----------------------------------------Footer*/
+
+footer {
+    background-color: #fff200;
+    min-height: 100px;
+}
+
+.footer-col {
+    text-align: center;
+}
+
+.footer-header {
+    padding-top: 15px;
+    color: #00a650;
+}
+
+.canaries-link {
+    color: #00a650;
+    text-decoration: none;
+    padding-top: 8px;
+}
+
+.canaries-link:hover {
+    color: #00a650;
+    text-decoration: underline;
+}
+
+.hub-canary-footer {
+    max-height: 85px;
+    padding-top: 5px;
+}
+
+.social-icons li a i {
+    color: #00a650;
+    font-size: 20px;
+    padding-top: 8px;
+}
+
 /*----------------------------------------News Page*/
 
 .hub-row-news {
