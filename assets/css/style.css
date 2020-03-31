@@ -175,20 +175,20 @@ body {
 .match-border {
     margin: 20px;
     padding-top: 20px;
-    height: 520px;
+    height: 400px;
 }
 
 .card {
     background-color: #fff200;
     text-align: center;
-    height: 450px;
+    height: 380px;
 }
 
 .card-img-top{
     height: 220px;
 }
 
-.card-title, .card-date, .card-text {
+.card-title, .card-date {
     color: #00a650;
     text-align: center;
 }
@@ -200,15 +200,29 @@ body {
 
 @media screen and (max-width: 943px) {
     .match-posts {
-        padding: 5px;
+        padding: 2px;
     }
 }
 
 @media screen and (max-width: 943px) {
     .card {
-        height: 500px;
+        height:400px;
     }
 }
+
+
+@media screen and (max-width: 943px) {
+    .card {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 943px) {
+    .match-border {
+        height: 1350px;
+    }
+}
+
 
 /*----------------------------------------Footer*/
 
@@ -246,6 +260,12 @@ footer {
     color: #00a650;
     font-size: 20px;
     padding-top: 8px;
+}
+
+@media screen and (max-width: 943px) {
+    footer{
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 943px) {
