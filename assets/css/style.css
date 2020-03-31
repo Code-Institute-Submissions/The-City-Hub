@@ -1,16 +1,18 @@
-/*----------------------------Font*/
+/*----------------------------Font and Body*/
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 
 body {
     font-family: "Righteous", cursive;
+    background-color: #000000;
 }
+
 
 /*----------------------------Nav Bar*/
 
 .navbar {
     overflow: hidden;
     height: 35px;
-    background-color: rgba(0,0,0,0.9);
+    background-color: #000000);
     border-bottom: 1px solid #fff200;
     display: block;
 }
@@ -61,6 +63,7 @@ body {
     height: 100%;
     position: relative;
     align-content: center;
+    margin-left: 0%;
 }
 
 .hub-line {
@@ -89,14 +92,14 @@ body {
 /*----------------------------------------welcome*/
 
 .welcome-section {
-    background-color: rgba(0,0,0,0.9);
+    background-color: #000000;
     border-top: 1px solid #fff200;
 }
 
 .welcome-heading {
     font-size: 70px;
     color: #fff200;
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
     padding-bottom: 5px;
 }
@@ -104,6 +107,7 @@ body {
 .welcome-reason-heading {
     color: #fff200;
     text-align: center;
+    padding-top: 30px;
 }
 
 .welcome-headings-icons {
@@ -115,6 +119,7 @@ body {
 .welcome-reason {
     color: #fff200;
     text-align: center;
+    padding-bottom: 35px;
 }
 
 .welcome-line {
@@ -123,6 +128,59 @@ body {
     background-color: #00a650;
     border-radius: 15px;
     margin-top: 0;
+}
+/*----------------------------------------Match Reviews*/
+
+.review-section {
+    background-color: #000000;
+    padding-top: 0;
+}
+
+.review-heading {
+    font-size: 70px;
+    color: #fff200;
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.review-line {
+    width: 10%;
+    height: 7px;
+    background-color: #00a650;
+    border-radius: 15px;
+    margin-top: 0;
+}
+
+.review-border {
+    margin: 20px;
+    padding-top: 20px;
+    height: 350px;
+}
+
+.review-post-heading {
+    color: #fff200;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.review-post-subheading {
+    color: #00a650;
+    text-align: center;
+}
+
+.review-photo-top {
+    background-image: url("../images/Krul1.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #fff200;
+}
+
+.review-photo-bottom {
+    background-image: url("../images/PukkiSoyuncu.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #fff200;
 }
 
 /*----------------------------------------News Page*/
