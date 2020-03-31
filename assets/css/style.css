@@ -97,7 +97,6 @@ body {
 }
 
 .welcome-heading {
-    font-size: 70px;
     color: #fff200;
     margin-top: 30px;
     text-align: center;
@@ -158,6 +157,11 @@ body {
     height: 350px;
 }
 
+.review-image {
+    height: 200px;
+    width: 100%;
+}
+
 .review-post-heading {
     color: #fff200;
     text-align: center;
@@ -167,13 +171,6 @@ body {
 .review-post-subheading {
     color: #00a650;
     text-align: center;
-}
-
-.review-photo-top {
-    background-image: url("../images/Krul1.jpg");
-    background-size: cover;
-    background-position: center;
-    border: 1px solid #fff200;
 }
 
 .review-photo-bottom {
