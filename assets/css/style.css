@@ -128,22 +128,21 @@ body {
     border-radius: 15px;
     margin-top: 0;
 }
-/*----------------------------------------Match Reviews*/
+/*----------------------------------------Recent Match*/
 
-.review-section {
+.match-section {
     background-color: #000000;
     padding-top: 0;
 }
 
-.review-heading {
-    font-size: 70px;
+.match-heading {
     color: #fff200;
     margin-top: 20px;
     text-align: center;
     padding-bottom: 5px;
 }
 
-.review-line {
+.match-line {
     width: 10%;
     height: 7px;
     background-color: #00a650;
@@ -151,29 +150,29 @@ body {
     margin-top: 0;
 }
 
-.review-border {
+.match-border {
     margin: 20px;
     padding-top: 20px;
     height: 350px;
 }
 
-.review-image {
-    height: 200px;
+.match-image {
+    min-height: 200px;
     width: 100%;
 }
 
-.review-post-heading {
+.match-post-heading {
     color: #fff200;
     text-align: center;
     padding-top: 10px;
 }
 
-.review-post-subheading {
+.match-post-subheading {
     color: #00a650;
     text-align: center;
 }
 
-.review-photo-bottom {
+.match-photo-bottom {
     background-image: url("../images/PukkiSoyuncu.jpg");
     background-size: cover;
     background-position: center;
