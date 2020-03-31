@@ -18,14 +18,15 @@
 <body>
 	<!--Nav Bar-->
 	<nav class="navbar fixed-top navbar-expand-sm">
-		<a href="index.html" class="navbar-brand">The City Hub <img src="assets/images/Canary.png" height="20" class="d-inline-block align-top" alt=""></a>
-		<span class="navbar-divider">|</span>
-		<a href="news.html" class="navbar-link"><i class="fas fa-newspaper d-none d-sm-inline"></i> News</a>
-		<span class="navbar-divider">|</span>
-		<a href="squad.html" class="navbar-link"><i class="fas fa-user-friends d-none d-sm-inline"></i> Squad</a>
-		<span class="navbar-divider">|</span>
-		<a href="signup.html" class="navbar-link"><i class="fas fa-pen d-none d-sm-inline"></i> Join / Log In</a>
-        </div>
+		<a href="index.html" class="navbar-brand">The City Hub
+			<img src="assets/images/Canary.png" height="20" class="d-inline-block align-top" alt=""></a>
+			<span class="navbar-divider">|</span>
+			<a href="news.html" class="navbar-link"><i class="fas fa-newspaper d-none d-sm-inline"></i> News</a>
+			<span class="navbar-divider">|</span>
+			<a href="squad.html" class="navbar-link"><i class="fas fa-user-friends d-none d-sm-inline"></i> Squad</a>
+			<span class="navbar-divider">|</span>
+			<a href="signup.html" class="navbar-link"><i class="fas fa-pen d-none d-sm-inline"></i> Join / Log In</a>
+			</div>
 	</nav>
 
 	<!--Header-->
@@ -33,7 +34,7 @@
 		<div class="row no-gutters hub-row-index">
 			<div class="opaque-cover"></div>
 			<div class="col-12 hub-heading">
-				<h1>The City Hub<img src="assets/images/Canary.png" class="hub-canary"></h1>
+				<h1 id="hub-heading-text">The City Hub<img src="assets/images/Canary.png" class="hub-canary"></h1>
 					<hr class="hub-line">
 					<p class="hub-tagline">The first place for all your Canary
 						Gossip!<i class="far fa-futbol heading-ball"></i></p>
@@ -65,20 +66,43 @@
 		<h1 class="match-heading">Recent Matches</h1>
 		<hr class="match-line">
 		<div class="row match-border">
-			<div class="col-md-4 review-posts">
-				<img src="assets/images/Hanley1.jpg" class="match-image">
-				<h4 class="match-post-heading">Sheffield United 1 - 0 Norwich City</h4>
-				<h6 class="match-post-subheading">07.03.2020 - Premier League <i class="fas fa-futbol"></i></h6>
+			<div class="col-md-4 match-posts">
+				<div class="card">
+					<img src="assets/images/Hanley1.jpg" class="card-img-top" alt="">
+					<div class="card-body">
+						<h5 class="card-title">Sheffield United 1 - 0 Norwich City</h5>
+						<h5 class="card-date">07.03.2020</h5>
+						<p class="card-text">The Canaries cannot keep up a good run and lose at the home of the
+							high-flying Blades.</p>
+						<a href="https://www.canaries.co.uk/first-team-squad/Fixtures/first-team/201920/march/sheffield-united-vs-norwich-city-on-07-mar-20/#report"
+							class="btn match-btn" target="_blank">Official Match Report</a>
+					</div>
+				</div>
 			</div>
-			<div class="col-md-4 review-posts">
-				<img src="assets/images/Krul1.jpg" class="match-image">
-				<h4 class="match-post-heading">Tottenham Hotspur 1 - 1 Norwich City (City win 2-3 on penalties)</h4>
-				<h6 class="match-post-subheading">04.03.2020 - FA Cup <i class="fas fa-trophy"></i></h6>
+			<div class="col-md-4 match-posts">
+				<div class="card">
+					<img src="assets/images/Krul1.jpg" class="card-img-top" alt="">
+					<div class="card-body">
+						<h5 class="card-title">Tottenham Hotspur 1 - 1 Norwich City</h5>
+						<h5 class="card-date">04.03.2020</h5>
+						<p class="card-text">Tim Krul heroics help secure Norwich City a place in the FA Cup Quarter
+							Finals.</p>
+						<a href="https://www.canaries.co.uk/first-team-squad/Fixtures/first-team/201920/march/tbc-vs-norwich-city-on-03-mar-20/#report"
+							class="btn match-btn" target="_blank">Official Match Report</a>
+					</div>
+				</div>
 			</div>
-			<div class="col-md-4 review-posts">
-				<img src="assets/images/PukkiSoyuncu.jpg" class="match-image">
-				<h4 class="match-post-heading">Norwich City 1 - 0 Leicester City</h4>
-				<h6 class="match-post-subheading">28.02.2020 - Premier League <i class="fas fa-futbol"></i></h6>
+			<div class="col-md-4 match-posts">
+				<div class="card">
+					<img src="assets/images/PukkiSoyuncu.jpg" class="card-img-top" alt="">
+					<div class="card-body">
+						<h5 class="card-title">Norwich City 1 - 0 Leicester City</h5>
+						<h5 class="card-date">28.02.2020</h5>
+						<p class="card-text">A dominant display by Norwich City stuns the Foxes, who sit high up the table.</p>
+						<a href="https://www.canaries.co.uk/first-team-squad/Fixtures/first-team/201920/february/norwich-city-vs-leicester-city-on-29-feb-20/#report"
+							class="btn match-btn" target="_blank">Official Match Report</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -87,14 +111,14 @@
 	<footer class="container-fluid">
 		<div class="row">
 			<div class="col-sm-5 footer-col">
-				<h5 class="footer-header">Visit the Official Canaries Website</h5>
+				<h5 class="footer-header d-none d-sm-block">Visit the Official Canaries Website</h5>
 				<a href="https://www.canaries.co.uk" class="canaries-link" target="_blank"> www.canaries.co.uk</a>
 			</div>
 			<div class="col-sm-2 footer-col">
-				<img src="assets/images/Canary.png" class="hub-canary-footer">
+				<img src="assets/images/Canary.png" class="hub-canary-footer sm-order-last">
             </div>
 				<div class="col-sm-5 footer-col">
-					<h5 class="footer-header">Follow us on our Social Pages</h5>
+					<h5 class="footer-header d-none d-sm-block">Follow us on our Social Pages</h5>
 					<ul class="list-inline social-icons">
 						<li class="list-inline-item">
 							<a href="https://www.facebook.com" target="_blank">

@@ -100,7 +100,11 @@ body {
     background-color: rgba(0,0,0,0.5);
 }
 
-
+@media screen and (max-width: 943px){
+ #hub-heading-text {
+       font-size: 90px;
+  }
+ }
 /*----------------------------------------welcome*/
 
 .welcome-section {
@@ -140,6 +144,12 @@ body {
     border-radius: 15px;
     margin-top: 0;
 }
+
+@media screen and (max-width: 943px){
+    .welcome-reason {
+        padding: 0 10px 0 10px;
+    }
+}
 /*----------------------------------------Recent Match*/
 
 .match-section {
@@ -165,30 +175,39 @@ body {
 .match-border {
     margin: 20px;
     padding-top: 20px;
-    height: 350px;
+    height: 520px;
 }
 
-.match-image {
-    min-height: 200px;
-    width: 100%;
-}
-
-.match-post-heading {
-    color: #fff200;
+.card {
+    background-color: #fff200;
     text-align: center;
-    padding-top: 10px;
+    height: 450px;
 }
 
-.match-post-subheading {
+.card-img-top{
+    height: 220px;
+}
+
+.card-title, .card-date, .card-text {
     color: #00a650;
     text-align: center;
 }
 
-.match-photo-bottom {
-    background-image: url("../images/PukkiSoyuncu.jpg");
-    background-size: cover;
-    background-position: center;
-    border: 1px solid #fff200;
+.match-btn {
+    background-color: #696968;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 943px) {
+    .match-posts {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 943px) {
+    .card {
+        height: 500px;
+    }
 }
 
 /*----------------------------------------Footer*/
@@ -227,6 +246,13 @@ footer {
     color: #00a650;
     font-size: 20px;
     padding-top: 8px;
+}
+
+@media screen and (max-width: 943px) {
+    .hub-canary-footer {
+        max-height: 50px;
+        margin: 0;
+    }
 }
 
 /*----------------------------------------News Page*/
