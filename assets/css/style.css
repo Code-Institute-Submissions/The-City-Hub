@@ -244,11 +244,11 @@ footer {
 
 .footer-header {
     padding-top: 15px;
-    color: #00a650;
+    color: #000000;
 }
 
 .canaries-link {
-    color: #00a650;
+    color: #000000;
     text-decoration: none;
     padding-top: 8px;
 }
@@ -264,9 +264,13 @@ footer {
 }
 
 .social-icons li a i {
-    color: #00a650;
+    color: #000000;
     font-size: 20px;
     padding-top: 8px;
+}
+
+.social-icons li a i:hover {
+    color: #00a650;
 }
 
 @media screen and (max-width: 943px) {
@@ -285,7 +289,7 @@ footer {
 /*----------------------------------------News Page*/
 
 .hub-row-news {
-    background: url("../images/ncfc4.jpg") no-repeat;
+    background: url("../images/ncfc4.jpg") no-repeat fixed;
     -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
@@ -304,7 +308,7 @@ footer {
     margin-top: 0;
 }
 
-.transfer-card {
+.news-card {
     background-color: #D3D3D3;
     text-align: center;
     height: 380px;
@@ -313,18 +317,18 @@ footer {
     height: 450px;
 }
 
-.transfer-section {
+.news-section {
     height: 600px;
 }
 
 @media screen and (max-width: 943px) {
-    .transfer-section {
-        height: 1800px;
+    .news-section {
+        height: 1650px;
     }
 }
 
 @media screen and (max-width: 943px) {
-    .transfer-card {
+    .news-card {
         height: 500px;
         margin-top: 3px;
     }
@@ -333,7 +337,7 @@ footer {
 /*----------------------------------------Squad*/
 
 .hub-row-squad {
-    background: url("../images/ncfc3.jpg") no-repeat;
+    background: url("../images/ncfc3.jpg") no-repeat fixed;
     -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
@@ -347,7 +351,7 @@ footer {
 /*----------------------------------------Sign Up*/
 
 .hub-row-sign {
-    background: url("../images/ncfc2.jpg") no-repeat;
+    background: url("../images/ncfc2.jpg") no-repeat fixed;
     -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
