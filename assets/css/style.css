@@ -10,11 +10,9 @@ body {
 /*----------------------------Nav Bar*/
 
 .navbar {
-    display: block;
-    height: 40px;
+    width: 100%;
     background-color: #fff200;
     border-bottom: 1px solid #fff200;
-    text-align: center;
 }
 
 
@@ -22,30 +20,35 @@ body {
     color: #000000;
     padding: 0;
     font-size: 18px;
-    display: inline-block;
     margin: 0;
 }
 
-.navbar-brand:hover {
+#navbar-brand {
+    color: #000000
+}
+
+#navbar-brand:hover {
     color: #00a650;
     text-decoration: none;
 }
+
 .navbar-link {
     color: #000000;
     text-decoration: none;
-    padding: 0;
+    padding: 0 7px 0 7px;;
     font-size: 16px;
-    display: inline-block;
+    margin-left:5px;
 }
 
 .navbar-divider {
-    color: #00a650;
+    color: #fff200;
 }
 
 .navbar-link:hover {
     color: #00a650;
     text-decoration: none;
 }
+
 
 /*----------------------------Header*/
 
