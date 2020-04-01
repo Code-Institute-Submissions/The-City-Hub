@@ -294,7 +294,40 @@ footer {
     position: relative;
     align-content: center;
     margin-left: 0%;
-    
+}
+
+.transfer-line {
+    width: 40%;
+    height: 2px;
+    background-color: #00a650;
+    border-radius: 15px;
+    margin-top: 0;
+}
+
+.transfer-card {
+    background-color: #D3D3D3;
+    text-align: center;
+    height: 380px;
+    margin: 0 auto;
+    width: 80%;
+    height: 450px;
+}
+
+.transfer-section {
+    height: 600px;
+}
+
+@media screen and (max-width: 943px) {
+    .transfer-section {
+        height: 1800px;
+    }
+}
+
+@media screen and (max-width: 943px) {
+    .transfer-card {
+        height: 500px;
+        margin-top: 3px;
+    }
 }
 
 /*----------------------------------------Squad*/

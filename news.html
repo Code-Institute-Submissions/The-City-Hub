@@ -17,16 +17,32 @@
 
 <body>
 	<!--Nav Bar-->
-	<nav class="navbar fixed-top navbar-expand-sm">
-		<a href="index.html" class="navbar-brand">The City Hub
+	<nav class="navbar navbar-light fixed-top navbar-expand-sm">
+		<a href="index.html" class="navbar-brand" id="navbar-brand">The City Hub
 			<img src="assets/images/Canary.png" height="20" class="d-inline-block align-top" alt=""></a>
-			<span class="navbar-divider">|</span>
-			<a href="news.html" class="navbar-link"><i class="fas fa-newspaper d-none d-sm-inline"></i> News</a>
-			<span class="navbar-divider">|</span>
-			<a href="squad.html" class="navbar-link"><i class="fas fa-user-friends d-none d-sm-inline"></i> Squad</a>
-			<span class="navbar-divider">|</span>
-			<a href="signup.html" class="navbar-link"><i class="fas fa-pen d-none d-sm-inline"></i> Join / Log In</a>
+
+			<button class="navbar-toggler ml-auto btn-outline-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a href="news.html" class="navbar-link"><i class="fas fa-newspaper d-none d-sm-inline"></i>
+							News</a>
+					</li>
+					<li class="nav-item">
+						<a href="squad.html" class="navbar-link"><i class="fas fa-user-friends d-none d-sm-inline"></i>
+							Squad</a>
+					</li>
+					<li class="nav-item">
+						<a href="signup.html" class="navbar-link"><i class="fas fa-pen d-none d-sm-inline"></i> Join /
+							Log
+							In</a>
+					</li>
+				</ul>
+			</div>
 	</nav>
+
 
 	<!--Header-->
 	<header>
@@ -42,51 +58,84 @@
 	</header>
 
 	<!--Section-->
-	<div class="news-section container-fluid">
-        
-	</div>
-		<!--Footer-->
-		<footer class="container-fluid">
-			<div class="row">
-				<div class="col-sm-5 footer-col">
-					<h5 class="footer-header d-none d-sm-block">Visit the Official Canaries Website</h5>
-					<a href="https://www.canaries.co.uk" class="canaries-link" target="_blank"> www.canaries.co.uk</a>
-				</div>
-				<div class="col-sm-2 footer-col">
-					<img src="assets/images/Canary.png" class="hub-canary-footer">
-            </div>
-					<div class="col-sm-5 footer-col">
-						<h5 class="footer-header d-none d-sm-block">Follow us on our Social Pages</h5>
-						<ul class="list-inline social-icons">
-							<li class="list-inline-item">
-								<a href="https://www.facebook.com" target="_blank">
-									<i class="fab fa-facebook" aria-hidden="true"></i>
-									<span class="sr-only">Facebook</span>
-							</li>
-							<li class="list-inline-item">
-								<a href="https://www.twitter.com" target="_blank">
-									<i class="fab fa-twitter" aria-hidden="true"></i>
-									<span class="sr-only">Twitter</span>
-							</li>
-							<li class="list-inline-item">
-								<a href="https://www.youtube.com" target="_blank">
-									<i class="fab fa-youtube" aria-hidden="true"></i>
-									<span class="sr-only">Youtube</span>
-							</li>
-							<li class="list-inline-item">
-								<a href="https://www.linkedin.com" target="_blank">
-									<i class="fab fa-linkedin" aria-hidden="true"></i>
-									<span class="sr-only">Linked In</span>
-							</li>
-							<li class="list-inline-item">
-								<a href="https://www.instagram.com" target="_blank">
-									<i class="fab fa-instagram" aria-hidden="true"></i>
-									<span class="sr-only">Instagram</span>
-							</li>
-						</ul>
+	<div class="transfer-section container-fluid">
+		<h1 class="welcome-heading">Transfers & Gossip</h1>
+		<hr class="welcome-line">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="transfer-card">
+					<img src="assets/images/AaronsTransfer.jpg" class="card-img-top" alt="">
+					<div class="card-body">
+						<h5 class="card-title">Aarons to Palace?</h5>
+                        <hr class="transfer-line">
+						<p class="card-text">A lot of speculation has come from the Crystal Palace camp regarding Max Aarons. Max has been a regular in the first team for the past 2 seasons, and is grabbing the attention of the Premier League regulars.</p>
 					</div>
 				</div>
-		</footer>
+			</div>
+			<div class="col-md-4">
+				<div class="transfer-card">
+					<img src="assets/images/DudaTransfer.png" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Duda joins on Loan</h5>
+                        <hr class="transfer-line">
+						<p class="card-text">Norwich City have acquired the uses on Ondrej Duda on loan until the rest of the Premier League season. Duda, and attacking midfielder joins from Hertha Berlin.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="transfer-card">
+					<img src="assets/images/RuppTransfer.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Rupp's a Canary</h5>
+                        <hr class="transfer-line">
+						<p class="card-text">Lukas Rupp has joined Norwich City on a permanent deal until 2022. Rupp joins from 1899 Hoffenheim in the Bundesliga. The German is an attacking midfielder, comfortable playing on both flanks. </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Footer-->
+	<footer class="container-fluid">
+		<div class="row">
+			<div class="col-sm-5 footer-col">
+				<h5 class="footer-header d-none d-sm-block">Visit the Official Canaries Website</h5>
+				<a href="https://www.canaries.co.uk" class="canaries-link" target="_blank"> www.canaries.co.uk</a>
+			</div>
+			<div class="col-sm-2 footer-col">
+				<img src="assets/images/Canary.png" class="hub-canary-footer">
+            </div>
+				<div class="col-sm-5 footer-col">
+					<h5 class="footer-header d-none d-sm-block">Follow us on our Social Pages</h5>
+					<ul class="list-inline social-icons">
+						<li class="list-inline-item">
+							<a href="https://www.facebook.com" target="_blank">
+								<i class="fab fa-facebook" aria-hidden="true"></i>
+								<span class="sr-only">Facebook</span>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://www.twitter.com" target="_blank">
+								<i class="fab fa-twitter" aria-hidden="true"></i>
+								<span class="sr-only">Twitter</span>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://www.youtube.com" target="_blank">
+								<i class="fab fa-youtube" aria-hidden="true"></i>
+								<span class="sr-only">Youtube</span>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://www.linkedin.com" target="_blank">
+								<i class="fab fa-linkedin" aria-hidden="true"></i>
+								<span class="sr-only">Linked In</span>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://www.instagram.com" target="_blank">
+								<i class="fab fa-instagram" aria-hidden="true"></i>
+								<span class="sr-only">Instagram</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+	</footer>
 </body>
 
 </html>

@@ -17,15 +17,32 @@
 
 <body>
 	<!--Nav Bar-->
-	<nav class="navbar fixed-top navbar-expand-sm">
-		<a href="index.html" class="navbar-brand">The City Hub <img src="assets/images/Canary.png" height="20" class="d-inline-block align-top" alt=""></a>
-		<span class="navbar-divider">|</span>
-		<a href="news.html" class="navbar-link"><i class="fas fa-newspaper d-none d-sm-inline"></i> News</a>
-		<span class="navbar-divider">|</span>
-		<a href="squad.html" class="navbar-link"><i class="fas fa-user-friends d-none d-sm-inline"></i> Squad</a>
-		<span class="navbar-divider">|</span>
-		<a href="signup.html" class="navbar-link"><i class="fas fa-pen d-none d-sm-inline"></i> Join / Log In</a>
+	<nav class="navbar navbar-light fixed-top navbar-expand-sm">
+		<a href="index.html" class="navbar-brand" id="navbar-brand">The City Hub
+			<img src="assets/images/Canary.png" height="20" class="d-inline-block align-top" alt=""></a>
+
+			<button class="navbar-toggler ml-auto btn-outline-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a href="news.html" class="navbar-link"><i class="fas fa-newspaper d-none d-sm-inline"></i>
+							News</a>
+					</li>
+					<li class="nav-item">
+						<a href="squad.html" class="navbar-link"><i class="fas fa-user-friends d-none d-sm-inline"></i>
+							Squad</a>
+					</li>
+					<li class="nav-item">
+						<a href="signup.html" class="navbar-link"><i class="fas fa-pen d-none d-sm-inline"></i> Join /
+							Log
+							In</a>
+					</li>
+				</ul>
+			</div>
 	</nav>
+
 	<!--Nav Bar Ending-->
 	<!--Header-->
 	<header>
@@ -33,15 +50,15 @@
 			<div class="opaque-cover"></div>
 			<div class="col-12 hub-heading">
 				<h1 id="hub-heading-text">Current Squad <img src="assets/images/Canary.png" class="hub-canary"></h1>
-				<hr class="hub-line">
-				<p class="hub-tagline">Meet the 2019/2020 squad below.
-					<i class="far fa-futbol heading-ball"></i></p>
+					<hr class="hub-line">
+					<p class="hub-tagline">Meet the 2019/2020 squad below.
+						<i class="far fa-futbol heading-ball"></i></p>
 			</div>
 		</div>
 	</header>
 
 	<!--Section-->
-	
+
 	<!--Footer-->
 	<footer class="container-fluid">
 		<div class="row">
@@ -75,7 +92,7 @@
 								<i class="fab fa-linkedin" aria-hidden="true"></i>
 								<span class="sr-only">Linked In</span>
 						</li>
-					<li class="list-inline-item">
+						<li class="list-inline-item">
 							<a href="https://www.instagram.com" target="_blank">
 								<i class="fab fa-instagram" aria-hidden="true"></i>
 								<span class="sr-only">Instagram</span>
