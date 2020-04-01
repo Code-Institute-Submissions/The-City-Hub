@@ -422,8 +422,13 @@ footer {
 }
 
 .player-section {
-    height: 600px;
+    height: 1800px;
     border-top: 1px solid #fff200;
+}
+
+.lineup-heading {
+    margin-top: 0;
+    text-align: center;
 }
 
 .player-card {
