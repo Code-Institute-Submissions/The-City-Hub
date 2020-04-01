@@ -329,17 +329,22 @@ footer {
 
 @media screen and (max-width: 943px) {
     .news-section {
-        height: 1650px;
+        height: 1520px;
     }
 }
 
 @media screen and (max-width: 943px) {
     .news-card {
-        height: 500px;
+        height: 450px;
         margin-top: 3px;
     }
 }
 
+@media screen and (max-width: 943px) {
+    .transfer-section {
+    height: 1520px;
+ }
+}
 /*----------------------------------------Squad*/
 
 .hub-row-squad {
@@ -373,6 +378,17 @@ footer {
     border: 1px solid #000;
 }
 
+@media screen and (max-width: 943px) {
+    .player-section {
+    height: 1600px;
+  }
+}
+
+@media screen and (max-width: 943px) {
+    .player-card {
+    height: 410px;
+  }
+}
 
 /*----------------------------------------Sign Up*/
 
