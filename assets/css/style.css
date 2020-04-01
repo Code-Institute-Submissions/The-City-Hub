@@ -422,7 +422,7 @@ footer {
 }
 
 .player-section {
-    height: 3000px;
+    height: 2000px;
     border-top: 1px solid #fff200;
 }
 
@@ -434,7 +434,7 @@ footer {
 .player-card {
     background-color: #efefef;
     text-align: center;
-    height: 320px;
+    height: 360px;
     margin: 0 auto;
     width: 80%;
     height: 450px;
