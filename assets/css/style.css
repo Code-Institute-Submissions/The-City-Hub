@@ -354,6 +354,11 @@ footer {
     margin-left: 0%;
 }
 
+.player-section {
+    height: 600px;
+    border-top: 1px solid #fff200;
+}
+
 .player-card {
     background-color: #efefef;
     text-align: center;
@@ -381,4 +386,23 @@ footer {
     position: relative;
     align-content: center;
     margin-left: 0%;
+}
+
+.sign-up-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.form-group, .form-check {
+    width: 90%;
+}
+
+.btn-primary {
+    border: 1px solid #000000;
+    border-radius: 15px;
+    background-color: #00a650;
+    color: #000000;
+    font-size: 16px;
+    margin-bottom: 30px;
 }
