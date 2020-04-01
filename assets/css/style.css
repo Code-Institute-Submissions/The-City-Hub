@@ -434,26 +434,75 @@ footer {
 .player-card {
     background-color: #efefef;
     text-align: center;
-    height: 360px;
-    margin: 0 auto;
-    width: 80%;
     height: 450px;
+}
+
+.defenders {
+    margin: 0 auto;
 }
 
 .player-img {
     height: 300px;
+    width: 300px;
     border: 1px solid #000;
 }
 
-@media screen and (max-width: 943px) {
+@media screen and (max-width: 1024px) {
+    .player-img {
+    height: 200px;
+    width: 200px;
+  }
+
+}@media screen and (max-width: 1024px) {
+    .player-card {
+    height: 350px;
+    width: 200px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1024px) {
+    .player-img {
+    height: 200px;
+    width: 200px;
+  }
+
+}@media screen and (max-width: 1024px) {
     .player-section {
-    height: 1600px;
+    height: 1700px;
   }
 }
 
-@media screen and (max-width: 943px) {
+@media screen and (max-width: 768px) {
     .player-card {
-    height: 410px;
+    height: 315px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .player-img {
+    height: 165px;
+    width: 165px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+    .player-section {
+    height: 4280px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+    .player-card {
+    height: 350px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .player-img {
+    height: 200px;
+    width: 200px;
   }
 }
 
