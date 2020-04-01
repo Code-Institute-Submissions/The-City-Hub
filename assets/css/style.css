@@ -210,32 +210,49 @@ body {
     color: #000000;
 }
 
-@media screen and (max-width: 943px) {
-    .match-posts {
-        padding: 2px;
-    }
-}
 
-@media screen and (max-width: 943px) {
+
+@media screen and (max-width: 768px) {
     .card {
         height:400px;
+        width: 62%;
+        margin: 0 auto;
     }
 }
 
-
-@media screen and (max-width: 943px) {
-    .card {
-        height: 400px;
+@media screen and (max-width: 768px) {
+    .reason-block {
+        width: 62%;
+        margin: 0 auto;
+        padding: 2px 0 2px 0;
     }
 }
 
-@media screen and (max-width: 943px) {
+@media screen and (max-width: 768px) {
     .match-border {
         height: 1350px;
     }
 }
 
+@media screen and (max-width: 414px) {
+    .match-posts {
+        padding: 2px;
+        width: 100%;
+    }
+}
 
+@media screen and (max-width: 414px) {
+    .card {
+        height:400px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .reason-block {
+        width: 100%;
+    }
+}
 /*----------------------------------------Footer*/
 
 footer {
@@ -279,13 +296,13 @@ footer {
     color: #00a650;
 }
 
-@media screen and (max-width: 943px) {
+@media screen and (max-width: 414px) {
     footer{
         margin: 0;
     }
 }
 
-@media screen and (max-width: 943px) {
+@media screen and (max-width: 414px) {
     .hub-canary-footer {
         max-height: 50px;
         margin: 0;
@@ -359,13 +376,13 @@ footer {
 @media screen and (max-width: 768px) {
     .news-card {
     width: 62%;
-    height: 460px;
+    height: 490px;
  }
 }
 
 @media screen and (max-width: 768px) {
     .news-section, .transfer-section {
-    height: 1500px;
+    height: 1580px;
  }
 }
 
