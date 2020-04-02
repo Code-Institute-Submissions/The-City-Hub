@@ -82,7 +82,7 @@ body {
     margin-left: 0%;
 }
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
    .hub-row-index {
     background: url("../images/Celebrate1.jpg") no-repeat center fixed;
     -webkit-background-size: cover;

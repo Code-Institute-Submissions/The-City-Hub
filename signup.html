@@ -23,17 +23,13 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a href="news.html" class="navbar-link"><i class="fas fa-newspaper d-none d-sm-inline"></i>
-                        News</a>
+                    <a href="news.html" class="navbar-link"><i class="fas fa-newspaper d-none d-sm-inline"></i> News</a>
                 </li>
                 <li class="nav-item">
-                    <a href="squad.html" class="navbar-link"><i class="fas fa-user-friends d-none d-sm-inline"></i>
-                        Squad</a>
+                    <a href="squad.html" class="navbar-link"><i class="fas fa-user-friends d-none d-sm-inline"></i> Squad</a>
                 </li>
                 <li class="nav-item">
-                    <a href="signup.html" class="navbar-link"><i class="fas fa-pen d-none d-sm-inline"></i> Join /
-                        Log
-                        In</a>
+                    <a href="signup.html" class="navbar-link"><i class="fas fa-pen d-none d-sm-inline"></i> Join / Log In</a>
                 </li>
             </ul>
         </div>
@@ -52,7 +48,7 @@
         </div>
     </header>
 
-    <!--Section-->
+    <!--Sign Up-->
     <div class="sign-up-section container">
         <div class="row">
             <div class="col-md-6 sign-up-left">
@@ -60,48 +56,49 @@
                 <hr class="welcome-line">
                 <form>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First Names">
+                        <input type="text" class="form-control" id="first-name" placeholder="First Names">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Last Names">
+                        <input type="text" class="form-control" id="last-name" placeholder="Last Names">
                     </div>
                     <div class="form-group">
-                        <input type="number" class="form-control" id="formGroupExampleInput" placeholder="Contact Number">
+                        <input type="number" class="form-control" id="contact-number" placeholder="Contact Number">
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+                        <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Email Address">
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Confirm Email Address">
+                        <input type="email" class="form-control" id="email-confirm" aria-describedby="emailHelp" placeholder="Confirm Email Address">
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                        <small id="emailHelp" class="form-text text-muted">Password must be min. 8 Characters and contain a number.</small>
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                        <small id="passwordHelp" class="form-text text-muted">Password must be min. 8 Characters and contain a number.</small>
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password">
+                        <input type="password" class="form-control" id="password-confirm" placeholder="Confirm Password">
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1"> Please tick if you would like to receive promotional material via email </label>
+                        <input class="form-check-input" type="checkbox" id="check-email">
+                        <label class="form-check-label" for="check-email"> Please tick if you would like to receive promotional material via email </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1"> Please tick if you would like to receive promotional material via SMS </label>
+                        <input class="form-check-input" type="checkbox"  id="check-sms">
+                        <label class="form-check-label" for="check-sms"> Please tick if you would like to receive promotional material via SMS </label>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
+            <!--Sign In-->
             <div class="col-md-6 sign-up-right">
                 <h1 class="welcome-heading">Already a Member? Sign in!</h1>
                 <hr class="welcome-line">
                 <form>
                     <div class="form-group">
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+                        <input type="email" class="form-control" id="sign-in-email" aria-describedby="emailHelp" placeholder="Email Address">
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password">
+                        <input type="password" class="form-control" id="sign-in-password" placeholder="Enter Password">
                     </div>
                     <button type="submit" class="btn btn-primary">Sign In</button>
                 </form>
@@ -116,7 +113,7 @@
                 <a href="https://www.canaries.co.uk" class="canaries-link" target="_blank"> www.canaries.co.uk</a>
             </div>
             <div class="col-sm-2 footer-col">
-                <img src="assets/images/Canary.png" class="hub-canary-footer" alt="canary">
+                <img src="assets/images/Canary.png" class="hub-canary-footer sm-order-last" alt="canary">
             </div>
             <div class="col-sm-5 footer-col">
                 <h5 class="footer-header d-none d-sm-block">Follow us on our Social Pages</h5>
@@ -125,26 +122,31 @@
                         <a href="https://www.facebook.com" target="_blank">
                             <i class="fab fa-facebook" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
+                        </a>
                     </li>
                     <li class="list-inline-item">
                         <a href="https://www.twitter.com" target="_blank">
                             <i class="fab fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
+                        </a>
                     </li>
                     <li class="list-inline-item">
                         <a href="https://www.youtube.com" target="_blank">
                             <i class="fab fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">Youtube</span>
+                        </a>
                     </li>
                     <li class="list-inline-item">
                         <a href="https://www.linkedin.com" target="_blank">
                             <i class="fab fa-linkedin" aria-hidden="true"></i>
                             <span class="sr-only">Linked In</span>
+                        </a>
                     </li>
                     <li class="list-inline-item">
                         <a href="https://www.instagram.com" target="_blank">
                             <i class="fab fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
+                        </a>
                     </li>
                 </ul>
             </div>
