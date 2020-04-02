@@ -82,6 +82,20 @@ body {
     margin-left: 0%;
 }
 
+@media screen and (max-width: 1024px) {}
+   .hub-row-index {
+    background: url("../images/Celebrate1.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    align-content: center;
+    margin-left: 0%;
+}
+} 
+
 .hub-line {
     width: 20%;
     height: 10px;
@@ -323,6 +337,20 @@ footer {
     margin-left: 0%;
 }
 
+@media screen and (max-width: 1024px) {
+.hub-row-news {
+    background: url("../images/ncfc4.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    align-content: center;
+    margin-left: 0%;
+}
+}
+
 .transfer-line {
     width: 40%;
     height: 2px;
@@ -421,6 +449,20 @@ footer {
     margin-left: 0%;
 }
 
+@media screen and (max-width: 1024px) {
+.hub-row-squad {
+    background: url("../images/ncfc3.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+   background-size: cover;
+    height: 100%;
+    position: relative;
+    align-content: center;
+    margin-left: 0%;
+}
+}
+
 .player-section {
     height: 2000px;
     border-top: 1px solid #fff200;
@@ -452,37 +494,47 @@ footer {
     height: 200px;
     width: 200px;
   }
+}
 
-}@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .player-card {
     height: 350px;
     width: 200px;
     margin: 0 auto;
   }
 }
+
 @media screen and (max-width: 1024px) {
     .player-img {
     height: 200px;
     width: 200px;
   }
+}
 
-}@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .player-section {
     height: 1700px;
   }
 }
 
 @media screen and (max-width: 768px) {
+    .player-section {
+    height: 5250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
     .player-card {
-    height: 315px;
-    margin: 0 auto;
+    height: 450px;
+    width: 100%;
+    margin-top: 5px;
   }
 }
 
 @media screen and (max-width: 768px) {
     .player-img {
-    height: 165px;
-    width: 165px;
+    height: 300px;
+    width: 300px;
   }
 }
 
@@ -499,7 +551,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 414px) {
     .player-img {
     height: 200px;
     width: 200px;
@@ -520,6 +572,20 @@ footer {
     margin-left: 0%;
 }
 
+@media screen and (max-width: 1024px) {
+.hub-row-sign {
+    background: url("../images/ncfc2.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    align-content: center;
+    margin-left: 0%;
+}
+}
+
 .sign-up-container {
     margin: 0 auto;
     text-align: center;
@@ -531,5 +597,9 @@ footer {
 }
 
 .sign-up-left {
+margin-bottom: 10px;
+ }
+
+ .sign-up-right {
 margin-bottom: 10px;
  }
