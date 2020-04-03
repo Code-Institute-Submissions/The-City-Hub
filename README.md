@@ -1,4 +1,5 @@
 # The-City-Hub
+![Screenshot](assets/images/Screenshot.png)
 The City Hub is a fan-site aimed at the supporters of Norwich City Football Club. Aiming to bring updated information to members of the hub. Allowing to interect with each other and have their own input into the site, the line-up sections.
 
 # UX
