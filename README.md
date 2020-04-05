@@ -1,43 +1,43 @@
 # The-City-Hub
 ![Screenshot](assets/images/Screenshot.png)
-The City Hub is a fan-site aimed at the supporters of Norwich City Football Club. Aiming to bring updated information to members of the hub. Allowing to interect with each other and have their own input into the site, the line-up sections.
+The City Hub is a fan-site aimed at the supporters of Norwich City Football Club, with the view to bring updated information to members of the hub. Allowing the fans to interect with each other and have their own input into the site, via the squad page and line-up section.
 
 # UX
 The purpose of the site is to provide a platform for fans to see information about their club.
 
 ### User Stories
-As a football fan, I look for a site that has relevant information about my team. An avenue in which i can talk to others about opinions, tactics and players.
+As a football fan, I look for a site that has relevant information about my team. An avenue in which I can talk to others about opinions, tactics and players.
 
 # Features
 ## Existing Features 
 ### Home page
 On the home page there are reasons to 'join the hub'. Following these are recent match reports, with an active link to the official reports on the official Norwich City Website.
 ### News
-This page provides the user with the recent updates from the club, snippets of information are on the page, with the option to view more at the click of a button. Transfers and Gossip are also available to see.
+This page provides the user with the recent updates from the club, snippets of information are on the page, with the option to view more at the click of a button. Transfers and Gossip are also available to see with the same format.
 ### The Squad
-A visually representation of a line-up preferred by the City Hub, with the option of members to have their own preferred line-up through social media.
+A visually representation of a line-up preferred by The City Hub team, with the option of members to have their own preferred line-up displayed on the site.
 ### Join / Log in
 A page where new users can become a site member, and existing members can sign in.
 ### Navigation, Header and Footer
 Each page has the same navigation bar and footer, so the user is able to navigate between the pages conveniently. The layout and design of each page is consistent with each other, except for the heading images and content.
 
 # Technologies Used
-### HTML (Hyper Text Markup Language)
-Used to build the pages of this website.
-### CSS (Cascading Style Sheets):
-I used this language to style my HTML pages through alignment, spacing and colour scheme.
+### HTML5 (Hyper Text Markup Language)
+Used to build the pages of this website. For more information on this language; https://en.wikipedia.org/wiki/HTML5
+### CSS3 (Cascading Style Sheets):
+I used this language to style my HTML pages through alignment, spacing and colour scheme. For more information on this language; https://en.wikipedia.org/wiki/Cascading_Style_Sheets
 ### Bootstrap
-This is a CSS framework that assist the developer in creating mobile responsive front-end projects.
+This is a CSS framework that assist the developer in creating mobile responsive front-end projects. https://getbootstrap.com/
 ### Chrome Developer Tools
-Web developer tools integrated in Google Chrome. Used to inspect the site on various mobile devices.
+Web developer tools integrated in Google Chrome. Used to inspect the site on various mobile devices. For more information; https://developers.google.com/web/tools/chrome-devtools
 ### GitPod
-An online IDE in which the HTML and CSS code was created and tested.
+An online IDE in which the HTML and CSS code was created and tested. https://gitpod.io
 ### GitHub
-A website which works with GitPod, it provides hosting for software development version control using Git.
+A website which works with GitPod, it provides hosting for software development version control using Git. https://github.com/
 ### W3C Code Validation
-This was used to validate the HTML and CSS, which notifies you of any errors.
+This was used to validate the HTML and CSS, which notifies you of any errors. https://validator.w3.org/
 ### Beautifier.io
-An online services which beautifies and formats your code to look more professional.
+An online services which beautifies and formats your code to look more professional. https://beautifier.io/
 
 # Testing
 ### Desktop / Laptop
@@ -46,6 +46,8 @@ The site has been tested on Google Chrome and Internet Explorer. The content is 
 Using the Chrome Developer Tools, a various range of mobile devices were tested on. The site responds well with all the following devices viewports;
 - Galaxy S5 - Google Pixel 2 - Google Pixel 2 XL - iPhone 5 / 6 / 7 / 8 / X - iPhone 6+ / 7+ / 8+ / X+ - iPad - iPad Pro 
 The site was also tested on my own Samsung S10+ and responded well to this, the images, content and links were clear and precise. 
+### Am I Responsive
+http://ami.responsivedesign.is/ was used to visually display and test the pages on 4 Apple products simultaneously. This is the display you can see at the beginning of this document.
 
 # Feedback
 The project was sent to a football fan, who did not support Norwich City, to get an insight into what they thought about the website.
@@ -56,6 +58,10 @@ The project was sent to a football fan, who did not support Norwich City, to get
 - All files/images used to create the site have been uploaded to GitPod and GitHub respectively.
 - To see the project published on Google Chrome, I selected the master branch in the GitHub settings and saved. This allowed the following url to be used to view the site in Google Chrome.
 - To view the code used, please visit the GitHub page for The City Hub.
+GitHub Account - https://github.com/RJAnderson94
+GitHub Repository for The City Hub - https://github.com/RJAnderson94/The-City-Hub
+Live Site - https://rjanderson94.github.io/The-City-Hub/
+
 
 # Credits
 ### Content
@@ -63,16 +69,18 @@ The project was sent to a football fan, who did not support Norwich City, to get
  - Card Template for displaying information on Home, News and Squad pages.
  - Form layout used for Join / Log In page.
  - Mobile responsive display, used in cohesion with JavaScript to make the site responsive on all devices, providing Burger Menu icon.
-2. Google Fonts; for the font style used across the site; Righteous.
-3. Norwich City Football Club Website; for information on recent news and match reports
+ https://getbootstrap.com/
+2. Google Fonts; for the font style used across the site; Righteous. https://fonts.google.com/
+3. Norwich City Football Club Website; for information on recent news and match reports. https://www.canaries.co.uk/
+1. Norwich City Football Club Website, news page for the latest news and information. https://www.canaries.co.uk/News/latest-news/
 
 ### Media
-1. Norwich City Football Club Website, squad page; used for the images to create the line-ups section.
-2. Google Images; allowing me to find suitbale images for the site. 
-3. Font Awesome; for the icons used across the site header and footer.
-4. Am I Responsive Web Design for displaying the viewport for each device, as seen in the image at the beginning of this document.
+1. Norwich City Football Club Website, squad page; used for the images to create the line-ups section. https://www.canaries.co.uk/first-team-squad/first-team/
+2. Font Awesome; for the icons used across the site. https://fontawesome.com/start
+3. Am I Responsive Web Design for displaying the viewport for each device, as seen in the image at the beginning of this document. http://ami.responsivedesign.is/ 
+4. 
 
 ### Acknowledgements
 1. Adegbenga Adeye - Code Institute Mentor - for development and desgin guidance and advice on the project.
-2. The Code Institute Slack Coomunity - for inspiration and the lively community it has.
+2. The Code Institute Slack Community - for inspiration and the lively community it has, constantly sharing advice, opinons and views.
 3. Oliver Henderson - for giving feedback on finalised project.
