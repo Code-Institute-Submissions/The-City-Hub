@@ -79,7 +79,6 @@ GitHub Repository for The City Hub - https://github.com/RJAnderson94/The-City-Hu
 1. Norwich City Football Club Website, squad page; used for the images to create the line-ups section. https://www.canaries.co.uk/first-team-squad/first-team/
 2. Font Awesome; for the icons used across the site. https://fontawesome.com/start
 3. Am I Responsive Web Design for displaying the viewport for each device, as seen in the image at the beginning of this document. http://ami.responsivedesign.is/ 
-4. 
 
 ### Acknowledgements
 1. Adegbenga Adeye - Code Institute Mentor - for development and design guidance and advice on this project, inlcuding the readme.md file.
