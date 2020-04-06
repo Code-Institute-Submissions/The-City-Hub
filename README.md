@@ -51,6 +51,8 @@ http://ami.responsivedesign.is/ was used to visually display and test the pages 
 ### Wireframes
 I created wireframes for my site using Balsamiq. The original idea was to have a dark-theme website with the natural colours of Norwich City, yellow and green. These designs were the implemented into the creation of the website when first constructed, and throughout the development of the project the site changed colour scheme and also its pages and content.
 ![Wireframes](assets/TheCityHub.pdf)
+Throughout development, I felt that the colour scheme was not supportive in what I wanted the site to look and feel like, did not feel professional. So I changed the colour scheme and content layout to suit a lighter background, whilst still incorporating the traditional Norwich City Colours.
+The pages on the site changed as well, as I felt that having the full squad on the page was not interactive enough, so I decided to implement a feature in which the members can contributed to as well.
 # Feedback
 The project was sent to a football fan, who does not support Norwich City, to get an insight into what they thought about the website.
 "You can easily access the content, get what its about. Its an advanced fan base with access to real news and gossip, easy to distinguish which is which"
