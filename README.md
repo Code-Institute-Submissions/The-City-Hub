@@ -48,7 +48,9 @@ Using the Chrome Developer Tools, a various range of mobile devices were tested 
 The site was also tested on my own Samsung Galaxy S10+ and responded well to this. The images, content and links were clear and precise. 
 ### Am I Responsive
 http://ami.responsivedesign.is/ was used to visually display and test the pages on 4 Apple products simultaneously. This is the display you can see at the beginning of this document.
-
+### Wireframes
+I created wireframes for my site using Balsamiq. The original idea was to have a dark-theme website with the natural colours of Norwich City, yellow and green. These designs were the implemented into the creation of the website when first constructed, and throughout the development of the project the site changed colour scheme and also its pages and content.
+![Wireframes](assets/TheCityHub.pdf)
 # Feedback
 The project was sent to a football fan, who does not support Norwich City, to get an insight into what they thought about the website.
 "You can easily access the content, get what its about. Its an advanced fan base with access to real news and gossip, easy to distinguish which is which"
